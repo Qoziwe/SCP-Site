@@ -1,6 +1,6 @@
 body {
   /* background-color: rgb(44, 44, 44); */
-  background: url(../images/фон.jpg);
+  background: url(./images/фон.jpg);
   /* background: url(https://steamuserimages-a.akamaihd.net/ugc/918079313294511094/BBA0B8DC1B85756DDA428FE7541537943634595B/); */
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -41,7 +41,7 @@ hr {
   overflow: hidden;
 }
 .sliding-background {
-  background: url("../images/SCP-banner.png") repeat-x;
+  background: url(./images/SCP-banner.png) repeat-x;
   /* background: url(https://zibero.ru/images/brands/Y105271.jpg) repeat-x; */
   background-size: 100vw;
   height: 34vw;
