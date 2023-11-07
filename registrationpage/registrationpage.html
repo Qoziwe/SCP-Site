@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./registrationpage.css" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <title>SCP database</title>
+  </head>
+  <body>
+    <!-- PRELOADER -->
+    <section>
+      <div id="preloader_malc">
+        <div>
+          <img
+            src="https://pa1.narvii.com/7633/4d7139bd93d71a46504a3b04505d6b6f702d7c4fr1-637-358_hq.gif"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <style type="text/css">
+        #preloader_malc {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: radial-gradient(rgb(0, 0, 0), #000000);
+          z-index: 10001;
+          overflow: hidden;
+        }
+        #preloader_malc img {
+          width: 30vw;
+        }
+
+        #preloader_malc div {
+          /* background: #242424; */
+          width: 20vw;
+          height: 5vw;
+          line-height: 40px;
+          border-radius: 8px;
+          font-family: arial;
+          font-size: 1vw;
+          color: #c2c2c2;
+          text-align: center;
+          /* box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.4); */
+          position: fixed;
+          z-index: 999;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      </style>
+
+      <script type="text/javascript">
+        window.onload = function () {
+          setTimeout(function () {
+            document.getElementById("preloader_malc").style.display = "none";
+          }, 1500);
+        };
+      </script>
+    </section>
+
+    <!-- REGISTRATION -->
+    <div class="reg-div">
+      <div class="img-div">
+        <img src="../images/SCP.png" alt="" />
+      </div>
+      <div class="reg-content">
+        <input
+          type="password"
+          placeholder="Введите идентификационный номер отдела"
+          class="in1"
+          id="login"
+        />
+        <input
+          type="password"
+          placeholder="Введите пароль"
+          class="in2"
+          id="password"
+        />
+        <button id="butt">Подтвердить</button>
+      </div>
+      <div class="img-div">
+        <img src="../images/SCP.png" alt="" />
+      </div>
+    </div>
+  </body>
+  <script src="./registrationpage.js"></script>
+</html>

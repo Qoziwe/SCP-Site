@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: rgb(12, 12, 12);
+}
+img {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25vw;
+}
+h1 {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25vw;
+  margin-top: 12.5vw;
+  color: aliceblue;
+  font-size: 1.5vw;
+  opacity: 0.5;
+}
